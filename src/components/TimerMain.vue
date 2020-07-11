@@ -61,7 +61,6 @@
             return {
                 timers: store.state.timers,
                 timerName: "",
-                time: new Date(),
                 myKey: 0,
             };
         },

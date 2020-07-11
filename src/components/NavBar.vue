@@ -23,11 +23,10 @@
     }
 
     .FlexNavBar {
-        position: absolute;
         display: flex;
         justify-content: space-between;
-        padding: 5vh 0 0 5vw;
-        width: 80vw;
+        align-items: center;
+        padding: 5vh 10vw 0 10vw;
     }
 
     .Brand {
@@ -45,7 +44,7 @@
 
     p {
         margin: 0;
-        font-size: 1rem;
+        font-size: 1.1rem;
         color: #FFFFFF;
     }
 
@@ -64,8 +63,7 @@
     @media screen and (min-width: 320px) and (max-width: 767px) {
         .FlexNavBar {
             flex-direction: column;
-            width: 90vw;
-            padding: 2vh 0 0 5vw;
+            padding: 2vh 5vw 0 5vw;
             height: 12vh;
         }
 
@@ -89,11 +87,19 @@
 
     @media screen and (min-width: 768px) and (max-width: 1024px) {
         .FlexNavBar {
-            width: 90vw;
         }
 
         .FlexDiv {
-            width: 60vw;
+            width: 55vw;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+
+        button {
+            font-size: 1rem;
+            padding: 0.4rem;
         }
 
         .Brand {

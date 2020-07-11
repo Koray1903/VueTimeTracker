@@ -35,15 +35,13 @@
     }
 
     .FooterDiv {
-
         border: 1px solid #E7E8EA;
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         height: max-content;
         background-color: #FFFFFF;
-        padding: 2rem 0 2rem 0;
+        padding: 5vh 10vw 5vh 10vw ;
     }
 
     .Brand {

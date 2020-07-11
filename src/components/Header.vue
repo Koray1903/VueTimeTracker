@@ -39,18 +39,18 @@
 
     .AppIcon {
         position: absolute;
-        left: 5vw;
+        left: 10vw;
         top: 30vh;
         height: 10vh;
     }
 
     .LandingText {
-        font-size: 3rem;
+        font-size: 2.5rem;
         color: #FFFFFF;
         position: absolute;
-        left: 5vw;
+        left: 10vw;
         top: 40vh;
-        width: 50vw;
+        width: 40vw;
         text-align: left;
     }
 
@@ -63,8 +63,8 @@
 
     .ButtonDiv {
         position: absolute;
-        top: 75vh;
-        left: 5vw;
+        top: 70vh;
+        left: 10vw;
     }
 
     .Button1 {
@@ -140,18 +140,18 @@
 
         .LandingText {
             top: 25vh;
-            width: 60vw;
-            font-size: 2rem;
+            width: 50vw;
+            font-size: 1.6rem;
         }
 
         .Tablet {
             top: 15vh;
-            right: 3vw;
+            right: 10vw;
             height: 35vh;
         }
 
         .ButtonDiv {
-            top: 40vh;
+            top: 38vh;
         }
     }
 
