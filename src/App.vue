@@ -1,28 +1,45 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <div id="app">
+        <Header/>
+        <Body/>
+        <Timer/>
+        <Footer/>
+    </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+    import Footer from "@/components/Footer";
+    import Header from "@/components/Header";
+    import Body from "@/components/Body";
+    import Timer from "@/components/TimerMain";
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+    import {store} from "@/store/store";
+
+    export default {
+        name: "App",
+        store,
+        components: {
+            Header,
+            Body,
+            Timer,
+            Footer
+        }
+    };
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+    html, body {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100%;
+        height: 100%;
+        background-color: #F2F2F2;
+        text-align: center;
+        font-family: "Nunito Sans", sans-serif;
+    }
+
+    #app {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
 </style>
